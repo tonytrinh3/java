@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public interface Saveable {
-    public ArrayList<String> write();
-    public void read(ArrayList<String> savedValues);
+    public List<String> write();
+    public void read(List<String> savedValues);
 
 }
