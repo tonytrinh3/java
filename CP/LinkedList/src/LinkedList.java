@@ -1,6 +1,3 @@
-
-
-
 // A simple Java program for traversal of a linked list
 public class LinkedList {
     Node head; // head of list
@@ -9,11 +6,13 @@ public class LinkedList {
     main() can access it */
     static class Node {
         int data;
+
         Node next;
+
         Node(int d)
         {
-            data = d;
-            next = null;
+            this.data = d;
+            this.next = null;
         } // Constructor
     }
 

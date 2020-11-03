@@ -1,4 +1,10 @@
+package com.timbuchalka;
+
+/**
+ * Created by dev on 11/10/2015.
+ */
 public class Node extends ListItem {
+
     public Node(Object value) {
         super(value);
     }
@@ -27,12 +33,10 @@ public class Node extends ListItem {
 
     @Override
     int compareTo(ListItem item) {
-        if (item != null){
+        if(item != null) {
             return ((String) super.getValue()).compareTo((String) item.getValue());
-        } else{
+        } else {
             return -1;
         }
     }
-
-
 }
