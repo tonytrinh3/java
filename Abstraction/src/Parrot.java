@@ -7,9 +7,11 @@ public class Parrot extends Bird {
         super(name);
     }
 
+    //les 129
     //you dont need to override eat and breath bc that is already being overridden in Bird class anymore
-    @Override
-    public void fly() {
-        System.out.println("Flying from branch to branch");
-    }
+//    @Override
+//    public void fly() {
+//        System.out.println("Flying from branch to branch");
+//    }
+
 }
